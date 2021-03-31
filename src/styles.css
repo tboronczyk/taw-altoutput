@@ -1,0 +1,56 @@
+#intro, #button, #terminal, #command {
+    font-family: monospace;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+#button {
+    background-color: inherit;
+    border: 0;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: underline;
+}
+
+#terminal, #command {
+    background-color: #000;
+    color: #a5f8b5;
+}
+
+b {
+    font-weight: bold;
+    color: #fff;
+}
+
+#intro, #terminal {
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 485px;
+    max-width: 600px;
+    min-width: 335px;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px 8px;
+    width: 100%;
+}
+
+#input {
+    display: flex;
+}
+
+#prompt {
+    width: 2ch;
+}
+
+#command {
+    border: 0;
+    outline: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.hidden {
+    display: none !important;
+}
